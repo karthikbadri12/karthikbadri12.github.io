@@ -6,34 +6,34 @@
 <title>Karthik Venkataramana · AI Product Leader · Evals · AIDLC</title>
 <meta name="description" content="AI product leader for regulated industries. I make enterprise AI trustworthy enough to ship: evals, LLM gateway economics, AIDLC, and production AI product management.">
 <style>
-  :root { color-scheme: light;
-    --ink:#0b0b0b; --ink2:#52514e; --muted:#898781; --page:#f9f9f7; --surface:#fcfcfb;
-    --line:#e1e0d9; --navy:#184f95; --navyd:#0d366b; --blue:#2a78d6; --orange:#eb6834; --good:#006300; }
+  :root { color-scheme: dark;
+    --ink:#f5f4ef; --ink2:#c3c2b7; --muted:#898781; --page:#0d0d0d; --surface:#1a1a19;
+    --line:#2c2c2a; --navy:#3987e5; --navyd:#101b2e; --blue:#3987e5; --orange:#eb6834; --good:#0ca30c; }
   *{margin:0;padding:0;box-sizing:border-box} html{scroll-behavior:smooth}
   body{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;background:var(--page);color:var(--ink);line-height:1.6}
   .wrap{max-width:1080px;margin:0 auto;padding:0 28px}
   a{color:var(--navy);text-decoration:none} a:hover{text-decoration:underline}
-  nav{position:sticky;top:0;background:rgba(249,249,247,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);z-index:10}
+  nav{position:sticky;top:0;background:rgba(13,13,13,.9);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);z-index:10}
   nav .wrap{display:flex;align-items:center;justify-content:space-between;height:58px}
   .logo{font-weight:750;letter-spacing:.02em}
   nav ul{display:flex;gap:24px;list-style:none;font-size:14.5px} nav a{color:var(--ink2)}
   .cv-btn{border:1.5px solid var(--navy);border-radius:6px;padding:6px 14px;color:var(--navy)!important;font-weight:650}
 
-  header{background:linear-gradient(180deg,#fff 0%,var(--page) 100%);border-bottom:1px solid var(--line);padding:76px 0 64px}
+  header{background:radial-gradient(1000px 480px at 78% 10%,rgba(57,135,229,.16),transparent 60%),linear-gradient(180deg,#111318 0%,var(--page) 100%);border-bottom:1px solid var(--line);padding:76px 0 64px}
   .hero{display:grid;grid-template-columns:1.6fr 1fr;gap:56px;align-items:center}
   .kicker{font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--navy);font-weight:700}
   header h1{font-size:52px;line-height:1.08;margin:18px 0 20px;letter-spacing:-.01em}
-  header h1 em{font-style:normal;color:var(--navy)}
+  header h1 em{font-style:normal;color:var(--blue)}
   p.lede{font-size:18.5px;color:var(--ink2);max-width:620px}
   .cta{margin-top:30px;display:flex;gap:13px;flex-wrap:wrap}
   .btn{display:inline-block;padding:13px 24px;border-radius:7px;font-weight:650;font-size:15px}
-  .btn-p{background:var(--navyd);color:#fff} .btn-p:hover{text-decoration:none;background:var(--navy)}
-  .btn-s{border:1.5px solid var(--line);color:var(--ink)} .btn-s:hover{text-decoration:none;border-color:var(--navy);color:var(--navy)}
+  .btn-p{background:var(--blue);color:#06101f} .btn-p:hover{text-decoration:none;background:#5598e7}
+  .btn-s{border:1.5px solid #3a3a37;color:var(--ink)} .btn-s:hover{text-decoration:none;border-color:var(--blue);color:var(--blue)}
   .portrait{justify-self:end;position:relative}
   .portrait img{width:280px;height:280px;border-radius:20px;object-fit:cover;display:block;
-    box-shadow:0 24px 60px rgba(13,54,107,.18);border:1px solid var(--line)}
-  .portrait::after{content:"";position:absolute;inset:-14px;border:1.5px solid var(--navy);border-radius:26px;opacity:.25;pointer-events:none}
-  .port-badge{position:absolute;left:-18px;bottom:-16px;background:var(--navyd);color:#fff;font-size:12.5px;font-weight:650;
+    box-shadow:0 24px 70px rgba(0,0,0,.6);border:1px solid #3a3a37}
+  .portrait::after{content:"";position:absolute;inset:-14px;border:1.5px solid var(--blue);border-radius:26px;opacity:.35;pointer-events:none}
+  .port-badge{position:absolute;left:-18px;bottom:-16px;background:var(--blue);color:#06101f;font-size:12.5px;font-weight:650;
     padding:9px 16px;border-radius:8px;box-shadow:0 10px 24px rgba(13,54,107,.25)}
   .proofstrip{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:56px;border:1px solid var(--line);
     border-radius:12px;background:var(--surface);overflow:hidden}
@@ -56,7 +56,7 @@
   .pillar .proofline{margin-top:14px;font-size:13.5px;font-weight:650;color:var(--good)}
   .pillar .proofline a{color:var(--good);text-decoration:underline}
 
-  .evalpanel{background:#0d1526;border-radius:14px;padding:30px 34px;color:#dbe6f5;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+  .evalpanel{background:#0a1220;border:1px solid #1d2b45;border-radius:14px;padding:30px 34px;color:#dbe6f5;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
     font-size:13.5px;line-height:2.05;box-shadow:0 24px 60px rgba(13,21,38,.35);max-width:860px;margin:34px auto 0}
   .evalpanel .t{color:#8fa8c8;font-size:12px;letter-spacing:.1em;margin-bottom:10px}
   .ok{color:#4ade80;font-weight:700} .bar{color:#8fa8c8}
@@ -75,7 +75,7 @@
   .proj-item h4{font-size:20px;margin-bottom:8px}
   .proj-item p{color:var(--ink2);font-size:15px;max-width:850px}
   .proj-item .links{margin-top:14px;font-size:14.5px;font-weight:650;display:flex;gap:22px;flex-wrap:wrap}
-  .pill{display:inline-block;font-size:11.5px;font-weight:750;letter-spacing:.06em;color:var(--navy);background:#e8f0fb;border-radius:20px;padding:4px 12px;margin-right:8px}
+  .pill{display:inline-block;font-size:11.5px;font-weight:750;letter-spacing:.06em;color:#86b6ef;background:#13223a;border-radius:20px;padding:4px 12px;margin-right:8px}
 
   .about-grid{display:grid;grid-template-columns:1.5fr 1fr;gap:44px}
   .about p{color:var(--ink2);margin-bottom:14px;font-size:15.5px}
@@ -83,7 +83,7 @@
   .facts div{padding:9px 0;border-bottom:1px solid var(--line);color:var(--ink2)} .facts div:last-child{border:none}
   .facts b{color:var(--ink)}
 
-  footer{background:var(--navyd);color:rgba(255,255,255,.85);padding:60px 0}
+  footer{background:#0a1220;border-top:1px solid #1d2b45;color:rgba(255,255,255,.85);padding:60px 0}
   footer h3{color:#fff;font-size:27px;margin-bottom:10px}
   footer .links{margin-top:22px;display:flex;gap:26px;flex-wrap:wrap;font-size:15px;font-weight:650}
   footer a{color:#fff}
@@ -136,7 +136,7 @@
 
 <section id="pillars"><div class="wrap">
   <h2>What I do</h2>
-  <h3 class="head">Four disciplines that separate AI that demos from AI that ships.</h3>
+  <h3 class="head">Five disciplines that separate AI that demos from AI that ships.</h3>
   <div class="pillars">
     <div class="pillar"><div class="num">01 · AI EVALS &amp; GOVERNANCE</div>
       <h4>Evals are the license to operate</h4>
@@ -165,6 +165,15 @@
       value proposition for each, and the delivery plan through compliance into production, including the honest
       call on which problems do not need AI at all.</p>
       <div class="proofline">Built in my work: fraud networks, claims automation and advisor AI running in production at RBC Insurance. Additionally: <a href="https://github.com/karthikbadri12/Agentic-Applied-AI-consultancy" target="_blank" rel="noopener">four open-sourced strategy engagements</a> showing the method</div>
+    </div>
+    <div class="pillar" style="grid-column:1/-1"><div class="num">05 · DATA PIPELINES &amp; DATA PRODUCTS</div>
+      <h4>AI-ready data products from any cloud, any lake</h4>
+      <p>Developed an integrated data pipeline connecting multi-cloud sources and multiple data lakes, Snowflake
+      and Databricks, on a Medallion architecture: ingesting and processing both structured and unstructured data
+      (documents, images, transcripts, transactions) into governed, AI-ready data products. This is the layer that
+      makes every applied AI use case above possible, because models are only as trustworthy as the data products
+      beneath them.</p>
+      <div class="proofline">Built in my work: the data foundation feeding fraud GNNs, claims document intelligence and advisor retrieval across 15+ insurance domains and 80+ systems of record</div>
     </div>
   </div>
   <div class="evalpanel">
